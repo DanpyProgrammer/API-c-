@@ -1,0 +1,27 @@
+#Compilación
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+
+# Secrets de desarrollo
+secrets.json
+
+# Configuración local
+appsettings.Development.json
