@@ -1,7 +1,8 @@
-namespace miapi.DTOs;
+namespace yogurtApi.Module.Yogurt.Entities;
 
-public record CreateYogurtDTO
+public class YogurtEntity
 {
+    public Guid uuid { get; } = Guid.NewGuid();
     public required string Codigo { get; set; }
     public required string Nombre { get; set; }
     public required string Descripcion { get; set; }
